@@ -1,60 +1,293 @@
-@media (max-width: 1000px) {
-.nav_list{
-    gap: 38px;
-}
-.nav_box{
-    margin-top: 30px;
-}
-}
-@media (max-width: 900px) {
-.nav_list{
-    gap: 20px;
-}
-.eng{
-margin-left: 130px;
-}
-.nav_box{
-    margin-top: 20px;
-}
-}
-@media (max-width: 900px) {
-.nav_list{
-    gap: 20px;
-}
-.nav_box{
-    margin-top: 15px;
-}
-.eng{
-margin-left: 80px;
-}
-.logo{
-    font-size: 22px;
-}
-.nav_list_link{
-    font-size: 15px;
-}
-.icons{
-    gap: 12px;
-}
-}
-@media(max-width:800px){
-   .search-box input{
-    width: 220px;
-   }
-   .icons img{
-    width: 30px;
-    height: 30px;
-   }
-   .eng{
-    margin-left: 32px;
-   }
-   .nav_list{
-    gap: 15px;      
-   }
-}
+   @media (max-width: 1200px) {
+            .card_apple {
+                max-width: 380px;
+            }
+        }
 
-@media(max-width:700px){
-.nav{
-    display: none;
-}
-}
+        @media (max-width: 1100px) {
+            .intro_img_title {
+                font-size: 40px;
+                line-height: 50px;
+            }
+
+            .card_apple {
+                max-width: 350px;
+            }
+
+            .nuqta {
+                left: 45%;
+            }
+        }
+
+        @media (max-width: 1000px) {
+            .intro_img_title {
+                font-size: 34px;
+                line-height: 44px;
+            }
+
+            .nav_list {
+                gap: 30px;
+            }
+
+            .intro_box {
+                gap: 20px;
+            }
+
+            .card_apple {
+                max-width: 300px;
+            }
+
+            .nav_box {
+                margin-top: 30px;
+            }
+
+            .card_text {
+                gap: 10px;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .intro_img_title {
+                font-size: 30px;
+                line-height: 40px;
+            }
+
+            .nav_list {
+                gap: 20px;
+            }
+
+            .intro_text {
+                font-size: 14px;
+            }
+
+            .eng {
+                margin-left: 50px;
+            }
+
+            .card_apple {
+                max-width: 250px;
+            }
+
+            .nav_box {
+                margin-top: 20px;
+            }
+
+            .logo {
+                font-size: 22px;
+            }
+
+            .nav_list_link {
+                font-size: 15px;
+            }
+
+            .icons {
+                gap: 12px;
+            }
+        }
+
+        @media(max-width: 800px) {
+            .search-box input {
+                width: 200px;
+            }
+
+            .icons img {
+                width: 28px;
+                height: 28px;
+            }
+
+            .nav_list {
+                gap: 15px;
+            }
+
+            .nav_list_link {
+                font-size: 14px;
+            }
+
+            .card_apple {
+                max-width: 220px;
+                right: 10px;
+            }
+
+            .eng {
+                margin-left: 32px;
+            }
+        }
+
+        @media(max-width: 700px) {
+            .nav {
+                display: none;
+            }
+
+            .nav_mobile {
+                display: block;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                backdrop-filter: blur(10px);
+                background-color: rgba(255, 255, 255, 0.95);
+                padding: 10px;
+                border-top: 1px solid #1a19197e;
+                z-index: 1000;
+            }
+
+            .intro_link {
+                display: none;
+            }
+
+            .line_left {
+                display: none;
+            }
+
+            .intro_box {
+                justify-content: center;
+            }
+
+            /* Card va rasm - rasm orqada, text ustida */
+            .card {
+                margin: 0;
+                position: relative;
+                overflow: hidden;
+                height: 300px;
+            }
+
+            .card_text {
+                position: relative;
+                z-index: 2;
+            }
+
+            .card_apple {
+                position: absolute;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                max-width: 280px;
+                z-index: 1;
+                opacity: 0.6;
+            }
+
+            body {
+                padding-bottom: 70px;
+            }
+
+            .mobile_link img {
+                height: 28px;
+                width: 28px;
+            }
+
+            .summer {
+                padding: 8px;
+            }
+
+            .intro_img_title {
+                font-size: 32px;
+                line-height: 42px;
+            }
+        }
+
+        @media(max-width: 600px) {
+            .mobile_text {
+                font-size: 14px;
+            }
+
+            .mobile_link img {
+                height: 26px;
+                width: 26px;
+            }
+
+            .intro_img_title {
+                font-size: 28px;
+                line-height: 36px;
+            }
+
+            .card {
+                padding: 25px;
+                height: 280px;
+            }
+
+            .card_apple {
+                max-width: 250px;
+                opacity: 0.5;
+            }
+
+            .summer {
+                padding: 5px;
+            }
+        }
+
+        @media(max-width: 500px) {
+            .mobile_text {
+                font-size: 12px;
+            }
+
+            .mobile_link img {
+                height: 24px;
+                width: 24px;
+            }
+
+            .summer_text {
+                font-size: 10px;
+            }
+
+            .summer_title {
+                font-size: 10px;
+            }
+
+            .eng {
+                font-size: 11px;
+                margin-left: 10px;
+            }
+
+            .intro_img_title {
+                font-size: 24px;
+                line-height: 32px;
+                max-width: 220px;
+            }
+
+            .apple_text {
+                font-size: 14px;
+            }
+
+            .card {
+                padding: 20px;
+                height: 260px;
+            }
+
+            .card_apple {
+                max-width: 220px;
+                opacity: 0.4;
+            }
+        }
+
+        @media(max-width: 400px) {
+            .eng {
+                margin-left: 5px;
+            }
+
+            .summer_link {
+                flex-direction: column;
+                gap: 2px;
+            }
+
+            .summer_title {
+                padding-left: 0;
+            }
+
+            .summer_title::after {
+                left: 0;
+            }
+
+            .intro_img_title {
+                font-size: 22px;
+                line-height: 30px;
+            }
+
+            .card {
+                height: 240px;
+            }
+
+            .card_apple {
+                max-width: 200px;
+            }
+        }
+   
