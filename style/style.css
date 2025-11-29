@@ -259,7 +259,6 @@
 
         .line_left {
             border-left: 1px solid #00000033;
-            margin-top: 40px;
         }
 
         .intro_text::after {
@@ -376,6 +375,7 @@
         }
 
         .card_apple img {
+            max-width: 400px;
             width: 100%;
             height: auto;
             object-fit: contain;
