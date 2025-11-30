@@ -1,175 +1,338 @@
-   @media (max-width: 1200px) {
-          
-        }
+   @media (max-width: 1200px) {}
 
-        @media (max-width: 1100px) {
-            .intro_img_title {
-                font-size: 40px;
-                line-height: 50px;
-            }
+   @media (max-width: 1100px) {
+       .intro_img_title {
+           font-size: 40px;
+           line-height: 50px;
+       }
 
-           
 
-            .nuqta {
-                left: 45%;
-            }
-        }
 
-        @media (max-width: 1000px) {
-            .intro_img_title {
-                font-size: 34px;
-                line-height: 44px;
-            }
+       .nuqta {
+           left: 45%;
+       }
+   }
 
-            .nav_list {
-                gap: 30px;
-            }
+   @media (max-width: 1000px) {
+       .cotolog_list::after {
+           right: -19px;
+           top: 43%;
+       }
 
-            .intro_box {
-                gap: 20px;
-            }
+       .section-cotolog {
+           margin-top: 100px;
+       }
 
-           
+       .intro_img_title {
+           font-size: 34px;
+           line-height: 44px;
+       }
 
-            .nav_box {
-                margin-top: 30px;
-            }
+       .nav_list {
+           gap: 30px;
+       }
 
-            .card_text {
-                gap: 10px;
-            }
-        }
+       .intro_box {
+           gap: 20px;
+       }
 
-        @media (max-width: 900px) {
-              .card {
-                justify-content: center;
-                align-items: center;
-                position: relative;
-            }
 
-            .card_text {
-                text-align: center;
-                align-items: center;
-                z-index: 2;
-            }
 
-            .apple {
-                justify-content: center;
-            }
+       .nav_box {
+           margin-top: 30px;
+       }
 
-            .intro_img_title {
-                text-align: center;
-            }
+       .card_text {
+           gap: 10px;
+       }
+   }
 
-            .wrap {
-                justify-content: center;
-            }
+   @media (max-width: 900px) {
+       .cotolog_list::after {
+           right: -15px;
+       }
 
-            .card_apple {
-                position: absolute;
-                left: 50%;
-                top: 50%;
-                transform: translate(-40%, -50%);
-                max-width: 500px;
-                width: 1005px;
-                z-index: 1;
-                opacity: 0.4;
-            }
-            .nav_list {
-                gap: 20px;
-            }
+       .cotolog_time {
+           gap: 25px;
+       }
 
-            .intro_text {
-                font-size: 14px;
-            }
+       .cotolog_link {
+           gap: 70px;
+       }
 
-            .eng {
-                margin-left: 50px;
-            }
+       .time {
+           font-size: 30px;
+       }
 
-           
+       .cotolog_title {
+           font-size: 34px;
+       }
 
-            .nav_box {
-                margin-top: 20px;
-            }
+       .title::before {
+           height: 38px;
+       }
 
-            .logo {
-                font-size: 22px;
-            }
+       .intro_img {
+           position: relative;
+       }
 
-            .nav_list_link {
-                font-size: 15px;
-            }
+       .section-cotolog {
+           margin-top: 80px;
+       }
 
-            .icons {
-                gap: 12px;
-            }
-            
+       .card {
+           justify-content: center;
+           align-items: center;
+           /* position: relative; */
+       }
 
-        }
+       .card_text {
+           text-align: center;
+           align-items: center;
+           z-index: 2;
+       }
 
-        @media(max-width: 800px) {
-            .search-box input {
-                width: 200px;
-            }
-        
-            .icons img {
-                width: 28px;
-                height: 28px;
-            }
+       .apple {
+           justify-content: center;
+       }
 
-            .nav_list {
-                gap: 15px;
-            }
+       .intro_img_title {
+           text-align: center;
 
-            .nav_list_link {
-                font-size: 14px;
-            }
+       }
 
-          
+       .wrap {
+           justify-content: center;
+       }
 
-            .eng {
-                margin-left: 32px;
-            }
-        }
+       .card_apple {
+           position: absolute;
+           left: 52%;
+           top: 50%;
+           transform: translate(-40%, -50%);
+           max-width: 800px;
+           width: 100%;
+           z-index: 1;
+           opacity: 0.4;
+           display: none;
+       }
 
-        @media(max-width: 700px) {
-            .nav {
-                display: none;
-            }
+       .card {
+           background: url(../images/header\ logo.png) no-repeat center/cover;
+           overflow: hidden;
+           position: relative;
+           max-width: 523px;
+           width: 100%;
+           margin: 0 auto;
+       }
 
-            .nav_mobile {
-                display: block;
-                position: fixed;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                backdrop-filter: blur(10px);
-                background-color: rgba(255, 255, 255, 0.95);
-                padding: 10px;
-                border-top: 1px solid #1a19197e;
-                z-index: 1000;
-            }
+       .card::after {
+           content: "";
+           position: absolute;
+           z-index: 1;
+           background: #141414;
+           inset: 0;
+           opacity: 0.5;
+           pointer-events: none;
 
-           
+       }
 
-           
+       .nav_list {
+           gap: 20px;
+       }
 
-            .intro_box {
-                justify-content: center;
-            }
-            .card {
-                margin: 0;
-                position: relative;
-                overflow: hidden;
-                height: 300px;
-            }
+       .intro_text {
+           font-size: 14px;
+       }
 
-            .card_text {
-                position: relative;
-                z-index: 2;
-            }
-/* 
+       .eng {
+           margin-left: 50px;
+       }
+
+
+
+       .nav_box {
+           margin-top: 20px;
+       }
+
+       .logo {
+           font-size: 22px;
+       }
+
+       .nav_list_link {
+           font-size: 15px;
+       }
+
+       .icons {
+           gap: 12px;
+       }
+
+
+   }
+
+   @media(max-width: 800px) {
+       .cotolog_time {
+           gap: 22px;
+       }
+
+       .cotolog_link {
+           gap: 60px;
+       }
+
+       .time {
+           font-size: 28px;
+       }
+
+       .cotolog_title {
+           font-size: 32px;
+       }
+
+       .title::before {
+           height: 36px;
+       }
+
+       .section-cotolog {
+           margin-top: 60px;
+       }
+
+       .search-box input {
+           width: 200px;
+       }
+
+
+       .icons img {
+           width: 28px;
+           height: 28px;
+       }
+
+       .nav_list {
+           gap: 15px;
+       }
+
+       .nav_list_link {
+           font-size: 14px;
+       }
+
+
+
+       .eng {
+           margin-left: 32px;
+       }
+
+       .intro_link {
+           margin-top: 30px;
+       }
+
+       .intro_img {
+           margin-top: 30px;
+       }
+
+       .intro_img_title {
+           line-height: 120%;
+           font-size: 32px;
+       }
+
+       .intro_text {
+           width: 170px;
+       }
+
+   }
+
+   @media(max-width: 700px) {
+       .cotolog_time {
+           gap: 18px;
+       }
+
+       .cotolog_link {
+           gap: 50px;
+       }
+
+       .time {
+           font-size: 26px;
+           text-align: center;
+       }
+
+       .cotolog_title {
+           font-size: 28px;
+       }
+
+       .title::before {
+           height: 34px;
+       }
+
+       .left {
+           width: 43px;
+           height: 43px;
+       }
+
+       .num {
+           text-align: center;
+       }
+
+       .cotolog_list::after {
+           right: -12px;
+       }
+       .cotolog_box {
+        margin-top: 18px;
+       }
+
+
+       .nav {
+           display: none;
+       }
+
+       .intro_link {
+           margin-top: 20px;
+           gap: 14px;
+       }
+
+       .section-cotolog {
+           margin-top: 50px;
+       }
+
+       .intro_img {
+           margin-top: 20px;
+       }
+
+       .nav_mobile {
+           display: block;
+           position: fixed;
+           bottom: 0;
+           left: 0;
+           width: 100%;
+           backdrop-filter: blur(10px);
+           background-color: rgba(255, 255, 255, 0.95);
+           padding: 10px;
+           border-top: 1px solid #1a19197e;
+           z-index: 1000;
+       }
+
+
+
+
+
+       .intro_box {
+           justify-content: center;
+       }
+
+       .apple img {
+           width: 40px;
+           height: 42px;
+       }
+
+       .card {
+           margin: 0;
+           position: relative;
+           overflow: hidden;
+           height: 327px;
+       }
+
+       .card_text {
+           position: relative;
+           z-index: 2;
+       }
+
+       /* 
             .card_apple {
                 position: absolute;
                 right: 0;
@@ -179,122 +342,288 @@
                 opacity: 0.6;
             } */
 
-            body {
-                padding-bottom: 70px;
-            }
+       body {
+           padding-bottom: 70px;
+       }
 
-            .mobile_link img {
-                height: 28px;
-                width: 28px;
-            }
+       .mobile_link img {
+           height: 28px;
+           width: 28px;
+       }
 
-            .summer {
-                padding: 8px;
-            }
+       .summer {
+           padding: 8px;
+       }
 
-            .intro_img_title {
-                font-size: 32px;
-                line-height: 42px;
-            }
-        }
+       .intro_img_title {
+           font-size: 32px;
+           line-height: 42px;
+       }
 
-        @media(max-width: 600px) {
-            .mobile_text {
-                font-size: 14px;
-            }
+       .intro_text {
+           width: 160px;
+       }
+   }
 
-            .mobile_link img {
-                height: 26px;
-                width: 26px;
-            }
+   @media(max-width: 650px) {
+       .summer_text {
+           font-size: 12px;
+       }
 
-            .intro_img_title {
-                font-size: 28px;
-                line-height: 36px;
-            }
+       .summer_title {
+           font-size: 14px;
+       }
+   }
 
-            .card {
-                padding: 25px;
-                height: 280px;
-            }
+   @media(max-width: 600px) {
+       .section-cotolog {
+           margin-top: 40px;
+       }
 
-            .card_apple {
-                opacity: 0.5;
-            }
+       .mobile_text {
+           font-size: 14px;
+       }
 
-            .summer {
-                padding: 5px;
-            }
-        }
+       .apple img {
+           width: 38px;
+           height: 39px;
+       }
 
-        @media(max-width: 500px) {
-            .mobile_text {
-                font-size: 12px;
-            }
+       .intro_link {
+           margin-top: 15px;
+           gap: 10px;
+       }
 
-            .mobile_link img {
-                height: 24px;
-                width: 24px;
-            }
+       .intro_img {
+           margin-top: 15px;
+       }
 
-            .summer_text {
-                font-size: 10px;
-            }
+       .intro_text {
+           line-height: 150%;
+           width: 140px;
+       }
 
-            .summer_title {
-                font-size: 10px;
-            }
+       .mobile_link img {
+           height: 26px;
+           width: 26px;
+       }
 
-            .eng {
-                font-size: 11px;
-                margin-left: 10px;
-            }
+       .intro_img_title {
+           font-size: 28px;
+           line-height: 36px;
+       }
 
-            .intro_img_title {
-                font-size: 24px;
-                line-height: 32px;
-                max-width: 220px;
-            }
+       .card {
+           padding: 25px;
+           height: 280px;
+       }
 
-            .apple_text {
-                font-size: 14px;
-            }
+       .card_apple {
+           opacity: 0.5;
+       }
 
-            .card {
-                padding: 20px;
-                height: 260px;
-            }
+       .summer {
+           padding: 5px;
+       }
+   }
 
-            
-        }
+   @media(max-width: 568px) {
+       .summer_text {
+           display: none;
+       }
 
-        @media(max-width: 400px) {
-            .eng {
-                margin-left: 5px;
-            }
+       .span {
+           display: block;
+           font-weight: 600;
+           padding-left: 8px;
+           font-size: 14px;
+           line-height: 24px;
+           color: #FAFAFA;
+           position: relative;
+           cursor: pointer;
 
-            .summer_link {
-                flex-direction: column;
-                gap: 2px;
-            }
+       }
+   }
 
-            .summer_title {
-                padding-left: 0;
-            }
+   @media(max-width: 500px) {
+       .section-cotolog {
+           margin-top: 20px;
+       }
 
-            .summer_title::after {
-                left: 0;
-            }
+       .mobile_text {
+           font-size: 12px;
+       }
 
-            .intro_img_title {
-                font-size: 22px;
-                line-height: 30px;
-            }
+       .apple img {
+           width: 33px;
+           height: 33px;
+       }
 
-            .card {
-                height: 240px;
-            }
+       .apple {
+           gap: 8px;
+       }
 
-         
-        }
-   
+       .intro_text {
+           line-height: 130%;
+           width: 120px;
+       }
+
+       .mobile_link img {
+           height: 24px;
+           width: 24px;
+       }
+
+       .summer_text {
+           font-size: 10px;
+       }
+
+       .summer_title {
+           font-size: 14px;
+       }
+
+       /* .summer_title::after {
+           display: none;
+       } */
+
+       .eng {
+           font-size: 11px;
+           margin-left: 10px;
+       }
+
+       .intro_img_title {
+           font-size: 24px;
+           line-height: 100%;
+           max-width: 220px;
+       }
+
+       .card_text {
+           gap: 4px;
+       }
+
+       .intro_img_text {
+           font-size: 14px;
+           line-height: 100%;
+       }
+
+       .wrap img {
+           height: 20px;
+           width: 18px;
+       }
+
+       .apple_text {
+           font-size: 14px;
+       }
+
+       .card {
+           padding: 20px;
+           height: 235px;
+       }
+
+
+   }
+
+   @media(max-width: 450px) {
+       .card {
+           height: 210px;
+       }
+   }
+
+   @media(max-width: 400px) {
+       .eng {
+           margin-left: 5px;
+       }
+
+       .summer_link {
+           gap: 5px;
+       }
+
+       .section-cotolog {
+           margin-top: 10px;
+       }
+
+       .summer_title {
+           padding-left: 0;
+           font-size: 12px;
+       }
+
+       .span {
+           font-size: 12px;
+       }
+
+       .summer_title::after {
+           left: 0;
+       }
+
+       .intro_img_title {
+           font-size: 22px;
+           line-height: 30px;
+       }
+
+       .card {
+           height: 180px;
+       }
+
+       .intro_text {
+           width: 115px;
+       }
+
+       .intro_box {
+           gap: 10px;
+       }
+
+       .intro_link {
+           gap: 5px;
+       }
+
+       .apple img {
+           width: 30px;
+           height: 30px;
+       }
+
+       .apple {
+           gap: 5px;
+       }
+
+       .intro_text {
+           font-size: 12px;
+       }
+
+       .apple_text {
+           font-size: 12px;
+       }
+
+       .intro_img_title {
+           font-size: 19px;
+           line-height: 21px;
+       }
+
+       .intro_img_text {
+           font-size: 12px;
+           line-height: 89%;
+       }
+
+       .wrap img {
+           height: 17px;
+           width: 15px;
+       }
+   }
+
+   @media(max-width: 350px) {
+       .card {
+           height: 155px;
+       }
+
+       .apple img {
+           width: 19px;
+           height: 20px;
+       }
+
+       .intro_img_title {
+           font-size: 16px;
+           line-height: 17px;
+       }
+
+       .apple_text {
+           font-size: 11px;
+       }
+   }
