@@ -526,7 +526,34 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow: hidden;
+
 }
+
+.section_card_list::after {
+    content: "Add To Cart";
+    width: 270px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 41px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background: #000000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(120%);
+    transition: 1s;
+  
+
+}
+.section_card_list:hover::after{
+    transform: translateY(0px);
+}
+
+
 
 .section_card_list::before {
     position: absolute;
@@ -589,6 +616,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-top: 16px;
 }
 
 .card_sum img {
@@ -645,9 +673,191 @@ body {
     align-items: center;
     justify-content: center;
 }
-.btn{
+
+.btn {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #000000;
+}
+
+.cotolog_wrap {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 60px;
+
+}
+
+.cotolog_wrap {
+    scroll-behavior: smooth;
+}
+
+
+.cotolog_card {
+    width: 170px;
+    height: 145px;
+    border-radius: 4px;
+    border-width: 1px;
+    border: 1px solid #0000004D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 0 0 auto;
+    gap: 16px;
+}
+
+.elektronika_text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.cotolog_card img {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.orange {
+    background: #DB4444;
+
+}
+
+.section_cotolog {
+    border-bottom: 1px solid #000000;
+}
+
+.product_box {
+    margin-top: 70px;
+
+}
+
+.product_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 56px;
+    border: none;
+    background: #DB4444;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.jbl_box {
+    display: flex;
+    margin-top: 140px;
+    column-gap: 27px;
+    background: #000000;
+    margin-bottom: 100px;
+    height: 500px;
+    width: 100%;
+
+}
+
+.jbl_text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 56px;
+}
+
+.data_box {
+    display: flex;
+    gap: 24px;
+    padding: 32px 0 46px 0;
+}
+
+.jbl_btn {
+    background: #00FF66;
+    width: 171px;
+    height: 56px;
+    border-radius: 4px;
+    border: unset;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+}
+
+.hours {
+    width: 62px;
+    height: 62px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hours_number {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.hours_text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.jbl_img img {
+    max-width: 568px;
+    height: 330px;
+    width: 100%;
+    filter:
+        drop-shadow(0px 30px 30px rgba(248, 248, 248, 0.185))
+        /* past */
+        drop-shadow(0px -30px 30px rgba(248, 248, 248, 0.192))
+        /* tepada */
+        drop-shadow(30px 0px 30px rgba(248, 248, 248, 0.219))
+        /* o‘ngda */
+        drop-shadow(-30px 0px 30px rgba(248, 248, 248, 0.226));
+    /* chapda */
+
+
+}
+
+.jbl_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+
+
+}
+
+
+.jbl_text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FF66;
+}
+
+.jbl_title {
+    font-family: initial;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 4%;
+    color: #FAFAFA;
+    max-width: 443px;
+    padding-top: 32px;
+}
+.search-box_list{
+    display: flex;
 }

@@ -16,9 +16,25 @@
            width: 240px;
            height: 240px;
        }
+
+       .cotolog_wrap {
+           overflow: hidden;
+           overflow-x: scroll;
+       }
    }
 
    @media (max-width: 1100px) {
+       .cotolog_wrap {
+           gap: 20px;
+       }
+
+
+       .cotolog_wrap {
+           margin-bottom: 60px;
+           margin-top: 50px;
+
+       }
+
        .intro_img_title {
            font-size: 40px;
            line-height: 50px;
@@ -44,6 +60,25 @@
    }
 
    @media (max-width: 1000px) {
+       .jbl_box {
+           margin-top: 100px;
+       }
+
+       .jbl_img img {
+           height: 300px;
+       }
+
+       .jbl_title {
+           font-size: 46px;
+           line-height: 100%;
+           padding-top: 26px;
+       }
+
+       .data_box {
+           gap: 22px;
+           padding: 28px 0 34px 0;
+       }
+
        .cotolog_list::after {
            right: -19px;
            top: 43%;
@@ -83,8 +118,28 @@
    }
 
    @media (max-width: 900px) {
+       .jbl_img img {
+           height: 270px;
+       }
+
+       .jbl_title {
+           font-size: 44px;
+           line-height: 100%;
+           padding-top: 20px;
+       }
+
+       .data_box {
+           gap: 18px;
+           padding: 22px 0 26px 0;
+       }
+
        .cotolog_list::after {
            right: -15px;
+       }
+
+       .cotolog_wrap {
+           margin-bottom: 50px;
+           margin-top: 40px;
        }
 
        .cotolog_time {
@@ -208,10 +263,105 @@
            gap: 12px;
        }
 
+       .btn_link {
+           width: 210px;
+           height: 50px;
+       }
+
+       .product_btn {
+           width: 145px;
+           height: 50px;
+       }
+
 
    }
 
    @media(max-width: 800px) {
+       .card_sum {
+           margin-top: 12px;
+       }
+
+       .jbl_box {
+           flex-direction: column;
+           padding: 60px 20px;
+           align-items: center;
+           justify-content: center;
+           position: relative;
+           width: 100%;
+           margin-top: 60px;
+       }
+
+       .jbl_text-box {
+           padding-left: 0;
+           align-items: center;
+           text-align: center;
+           z-index: 2;
+           position: relative;
+       }
+
+       .jbl_title {
+           text-align: center;
+           font-size: 36px;
+       }
+
+       .hours {
+           width: 57px;
+           height: 58px;
+       }
+
+       .hours_text {
+           line-height: 100%;
+       }
+
+       .jbl_btn {
+           background: #00FF66;
+           width: 190px;
+           height: 50px;
+           border-radius: 4px;
+           border: unset;
+           font-weight: 500;
+           font-size: 16px;
+           line-height: 24px;
+           color: #FAFAFA;
+       }
+
+       .data_box {
+           justify-content: center;
+       }
+
+       .jbl_img {
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+           width: 100%;
+           height: 100%;
+           /* z-index: 1; */
+           opacity: 0.6;
+       }
+
+       .jbl_img img {
+           max-width: 600px;
+           height: auto;
+           max-height: 400px;
+       }
+
+       .cotolog_card {
+           width: 165px;
+           height: 130px;
+           gap: 10px;
+       }
+
+       .btn {
+           margin-bottom: 40px;
+           padding-bottom: 40px;
+       }
+
+       .cotolog_card img {
+           width: 50px;
+           height: 50px;
+       }
+
        .cotolog_title {
            font-size: 32px;
        }
@@ -276,9 +426,15 @@
        }
 
        .btn_link {
-           width: 210px;
+           width: 190px;
            height: 50px;
        }
+
+       .product_btn {
+           width: 130px;
+           height: 45px;
+       }
+
 
 
 
@@ -303,13 +459,60 @@
            width: 170px;
        }
 
+       .cotolog_wrap {
+           margin-bottom: 40px;
+           margin-top: 30px;
+       }
+
    }
 
    @media(max-width: 700px) {
-       .btn_link {
-           width: 200px;
+       .data_box {
+           gap: 15px;
+           padding: 15px 0 15px 0;
+       }
+
+       .jbl_box {
+           margin-top: 50px;
+       }
+
+       .jbl_title {
+           font-size: 34px;
+       }
+
+       .hours {
+           width: 50px;
            height: 50px;
        }
+
+       .hours_number {
+           font-size: 14px;
+           line-height: 120%;
+       }
+
+       .cotolog_wrap {
+           margin-bottom: 30px;
+           margin-top: 20px;
+       }
+
+       .btn_link {
+           width: 170px;
+           height: 45px;
+           font-size: 15px;
+       }
+
+       .jbl_btn {
+           width: 170px;
+           height: 45px;
+           font-size: 15px;
+       }
+
+       .product_btn {
+           width: 120px;
+           height: 40px;
+           font-size: 15px;
+       }
+
 
        .section_box {
            margin-bottom: 30px;
@@ -478,6 +681,10 @@
        .intro_text {
            width: 160px;
        }
+
+       .cotolog_wrap {
+           gap: 15px;
+       }
    }
 
    @media(max-width: 650px) {
@@ -491,9 +698,80 @@
    }
 
    @media(max-width: 600px) {
-       .btn_link {
-           width: 190px;
+       .card_sum {
+           margin-top: 7px;
+       }
+
+       .data_box {
+           gap: 10px;
+           padding: 12px 0 12px 0;
+       }
+
+       .jbl_box {
+           height: 450px;
+           margin-top: 40px;
+       }
+
+       .hours {
+           width: 50px;
            height: 50px;
+       }
+
+       .hours_number {
+           font-size: 14px;
+           line-height: 120%;
+       }
+
+       .jbl_title {
+           font-size: 32px;
+           padding-top: 10px;
+       }
+
+       .cotolog_card {
+           width: 145px;
+           height: 120px;
+           gap: 3px;
+       }
+
+       .btn {
+           margin-bottom: 20px;
+           padding-bottom: 20px;
+       }
+
+       .cotolog_wrap {
+           gap: 10px;
+       }
+
+       .cotolog_card img {
+           width: 45px;
+           height: 45px;
+       }
+
+       .elektronika_text {
+           font-size: 15px;
+       }
+
+       .btn_link {
+           width: 150px;
+           height: 40px;
+           font-size: 14px;
+       }
+
+       .jbl_btn {
+           width: 150px;
+           height: 40px;
+           font-size: 14px;
+       }
+
+       .product_btn {
+           width: 105px;
+           height: 35px;
+           font-size: 14px;
+       }
+
+       .cotolog_wrap {
+           margin-bottom: 20px;
+           margin-top: 20px;
        }
 
        .section_box {
@@ -644,10 +922,80 @@
    }
 
    @media(max-width: 500px) {
+       .card_sum {
+           margin-top: 5px;
+       }
+
+       .data_box {
+           gap: 10px;
+           padding: 10px 0 10px 0;
+       }
+
+       .jbl_box {
+           height: 370px;
+           margin-top: 20px;
+       }
+
+       .hours {
+           width: 42px;
+           height: 42px;
+       }
+
+       .hours_number {
+           font-size: 12px;
+           line-height: 120%;
+       }
+
+       .hours_text {
+           font-size: 9px;
+           font-weight: 600;
+       }
+
+       .jbl_title {
+           font-size: 25px;
+           padding-top: 5px;
+           max-width: 300px;
+       }
+
+       .cotolog_card {
+           width: 135px;
+           height: 110px;
+           gap: 0px;
+       }
+
+       .btn {
+           margin-bottom: 15px;
+           padding-bottom: 15px;
+       }
+
+
+       .cotolog_card img {
+           width: 40px;
+           height: 40px;
+       }
+
+
        .btn_link {
-           width: 170px;
-           height: 45px;
-           font-size: 14px
+           width: 150px;
+           height: 40px;
+           font-size: 13px;
+       }
+
+       .jbl_btn {
+           width: 150px;
+           height: 40px;
+           font-size: 13px;
+       }
+
+       .product_btn {
+           width: 95px;
+           height: 30px;
+           font-size: 13px;
+       }
+
+       .cotolog_wrap {
+           margin-bottom: 15px;
+           margin-top: 15px;
        }
 
        .section_box {
@@ -671,16 +1019,6 @@
        .turt {
            height: 135px;
        }
-
-       /* .card_heart {
-           width: 30px;
-           height: 30px;
-       }
-
-       .card_heart img {
-           width: 16px;
-           height: 28px;
-       } */
 
        .card_title {
            font-size: 14px;
@@ -776,10 +1114,6 @@
            font-size: 14px;
        }
 
-       /* .summer_title::after {
-           display: none;
-       } */
-
        .eng {
            font-size: 11px;
            margin-left: 10px;
@@ -821,19 +1155,105 @@
        .card {
            height: 210px;
        }
-         .btn_link {
-           width: 150px;
-           height: 45px;
-           font-size: 14px
+
+       .btn_link {
+           width: 145px;
+           height: 33px;
+           font-size: 11px;
+       }
+
+       .jbl_btn {
+           width: 145px;
+           height: 33px;
+           font-size: 11px;
+       }
+
+       .product_btn {
+           width: 80px;
+           height: 25px;
+           font-size: 11px;
        }
 
    }
 
    @media(max-width: 400px) {
+
+       .hours {
+           width: 38px;
+           height: 38px;
+       }
+
+       .jbl_text {
+           font-size: 14px;
+           line-height: 100%;
+       }
+
+       .data_box {
+           gap: 5px;
+           padding: 5px 0 5px 0;
+       }
+
+       .hours_number {
+           font-size: 12px;
+           line-height: 120%;
+       }
+
+       .hours_text {
+           font-size: 9px;
+           font-weight: 600;
+       }
+
+       .jbl_title {
+           font-size: 22px;
+           padding-top: 5px;
+           max-width: 300px;
+       }
+
+       .cotolog_card {
+           width: 135px;
+           height: 110px;
+           gap: 0px;
+       }
+
+       .cotolog_card {
+           width: 125px;
+           height: 100px;
+           gap: 0px;
+       }
+
+       .jbl_box {
+           height: 280px;
+       }
+
+       .cotolog_wrap {
+           gap: 10px;
+       }
+
+       .cotolog_card img {
+           width: 32px;
+           height: 32px;
+       }
+
+       .elektronika_text {
+           font-size: 12px;
+           line-height: 140%;
+       }
+
+       .cotolog_wrap {
+           margin-bottom: 10px;
+           margin-top: 10px;
+       }
+
        .btn_link {
-           width: 140px;
-           height: 40px;
-           font-size: 13px
+           width: 120px;
+           height: 30px;
+           font-size: 10px
+       }
+
+       .jbl_btn {
+           width: 120px;
+           height: 30px;
+           font-size: 10px
        }
 
        .card_title {
@@ -994,6 +1414,11 @@
    }
 
    @media(max-width: 350px) {
+
+       .jbl_title {
+           font-size: 20px;
+       }
+
        .card {
            height: 155px;
        }
@@ -1012,3 +1437,29 @@
            font-size: 11px;
        }
    }
+
+   @media (max-width: 800px) {}
+
+   /* @media (max-width: 500px) {
+            .jbl_title {
+                font-size: 28px;
+                line-height: 38px;
+            }
+
+            .data_box {
+                gap: 12px;
+            }
+
+            .hours {
+                width: 55px;
+                height: 55px;
+            }
+
+            .hours_number {
+                font-size: 14px;
+            }
+
+            .hours_text {
+                font-size: 9px;
+            }
+        } */
